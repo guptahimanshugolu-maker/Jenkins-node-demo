@@ -130,6 +130,7 @@ pipeline {
             steps {
                 sh '''
                     sleep 2
+                    
                     curl -f http://127.0.0.1:3000/health
                 '''
             }
